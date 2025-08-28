@@ -1,0 +1,160 @@
+header {
+    background-color: lightgray;
+    height: 130px;
+    width: 100%;
+    border-bottom: solid rgb(160, 160, 160) 2px;
+    text-align: center;
+}
+
+.img2{
+    margin-top: 1.5%;
+}
+
+.nav1{
+    display: flex;            
+    align-items: center;        
+    justify-content: center;   
+    gap: 20px; 
+    flex-wrap: wrap;
+}
+
+nav img.titulo {
+  max-width: 300px;   
+  height: auto;
+  border-radius: 15px; 
+}
+
+.descricao{
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border: solid gray 2px;
+    border-radius: 25px;
+    padding: 5px;
+    text-align: center;
+    width: 35%;
+}
+
+.titulo{
+    position: relative;
+    top: 10px;
+}
+
+.classe{
+    position: relative;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    height: 15vh;
+    background-color: rgb(247, 206, 212);
+}
+
+.divPai {
+    display: flex;
+    position: relative;
+    top: 10%;
+    justify-content: center;
+    text-align: center;
+    flex-flow: row wrap;
+    gap: 80px;
+}
+
+.divPai2 {
+    display: flex;
+    position: relative;
+    top: 20%;
+    justify-content: center;
+    text-align: center;
+    flex-flow: row wrap;
+    gap: 80px;
+}
+
+.divPai>div{
+    background-color: rgb(160, 160, 160, 0.6);
+    border: solid black 2px;  
+    border-radius: 20px;
+    padding-bottom: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 10px;
+}
+
+.divPai2>div{
+    background-color: rgb(160, 160, 160, 0.7);
+    border: solid black 2px;  
+    border-radius: 20px;
+    padding-bottom: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+.links{
+    color: black;
+    margin-top: 3px;
+    font-size: large;
+    text-decoration: none;
+}
+
+footer{
+    background-color: lightgrey;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    position: relative;
+    top: 100%;
+}
+
+footer>p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.divPai3{
+    display: flex;
+    position: relative;
+    top: 25%;
+    justify-content: space-around;
+    text-align: center;
+    flex-flow: row wrap;
+}
+
+.divPai3>div{
+    background-color: rgb(160, 160, 160);
+    border: solid black 2px;  
+    border-radius: 20px;
+    font-size: medium;
+    margin-bottom: 40px;
+}
+
+.div1>img{
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.sair{
+    display: inline;
+    padding: 10px;
+    background-color: lightgray;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.divPai4{
+    text-align: center;
+    top: 100%;
+    position: relative;
+}
+
+.sair:hover{
+    background-color: rgb(103, 163, 252);
+}

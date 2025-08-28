@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../Midias/IFTM.png">
+    <style>
+        body{
+            background-color: rgb(252, 204, 211);
+        }
+
+        fieldset{
+            width: 80%;
+            position: relative;
+            left: 8%;
+            border-radius: 15px;
+            border-color: gray;
+            background-color: lightgray;
+        }
+
+        fieldset>#enviar{
+            text-align: center;
+        }
+
+        #nome, #telefone{
+            width: 100%;
+            border-radius: 10px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+        }
+
+        #enviar{
+            border: solid black 1px;
+            border-radius: 6px;
+            padding: 10px;
+            color: black;
+            font-weight: bold;
+            background-color: lightgrey;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+
+        img{
+            border-radius: 10px;
+            display: inline;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            display: inline;
+            padding: 8px;
+            background-color: lightgray;
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 6px;
+            
+        }
+
+        a:hover{
+            background-color: rgb(103, 163, 252);
+        }
+
+        .divPai{
+            display: flex;
+            flex-wrap: row wrap;
+        }
+
+        .Descricao{
+            position: relative;
+            border: none;
+            background-color: lightgray;
+            width: 100%;
+            color: black;
+            font-size: 15px;
+        }
+    </style>
+    <title>Achados & Perdidos</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <div class="divPai"><img src="../Midias/Garrafa14.jpg" alt="Garrafa1" width="144" height="144">
+            <textarea name="descricao" class="Descricao" cols="40" rows="4" disabled>Garrafa plástica preta da Sanremo cuja tampa está desgastada</textarea><br></div>
+            <label for="nome">Nome: </label>
+            <input type="text" name="Nome" id="nome" autofocos required placeholder="..."><br><br>
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="Telefone" id="telefone" required placeholder="(**) ****-****"><br><br>
+            <label for="sexo">Sexo: </label>
+            <select name="sexo" id="sexo">
+            <option value="masculino" selected>Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+            </select><br><br>
+            <label>Selecione sua turma: </label>
+            <div class="turmas">
+                <input type="radio" name="turma" value="1º TDS A" id="1 TDS A"> 
+                <label for="1 TDS A">1º TDS A</label> <br>
+                <input type="radio" name="turma" value="1º TDS B" id="1 TDS B"> 
+                <label for="1 TDS B">1º TDS B</label> <br>
+                <input type="radio" name="turma" value="1º TCG" id="1 TCG"> 
+                <label for="1 TCG">1º TCG</label> <br>
+                <input type="radio" name="turma" value="1º TELLE" id="1 TELE"> 
+                <label for="1 TELE">1º TELLE</label> <br>
+                <input type="radio" name="turma" value="2º TDS" id="2 TDS"> 
+                <label for="2 TDS">2º TDS</label> <br>
+                <input type="radio" name="turma" value="2º TCG" id="2 TCG"> 
+                <label for="2 TCG">2º TCG</label> <br>
+                <input type="radio" name="turma" value="2º TELLE" id="2 TELE"> 
+                <label for="2 TELE">2º TELE</label> <br>
+                <input type="radio" name="turma" value="3º TDS" id="3 TDS"> 
+                <label for="3 TDS">3º TDS</label> <br>
+                <input type="radio" name="turma" value="3º TCG" id="3 TCG"> 
+                <label for="3 TCG">3º TCG</label> <br>
+                <input type="radio" name="turma" value="3º TELE" id="3 TELE"> 
+                <label for="3 TELE">3º TELE</label>
+            </div><br><br>
+            
+            <label for="avaliacao">Avaliação:</label><br>
+            <input type="radio" name="avaliacao" value="pessimo" id="pessimo">
+            <label for="pessimo">Péssimo</label>
+            <input type="radio" name="avaliacao" value="ruim" id="ruim">
+            <label for="ruim">Ruim</label>
+            <input type="radio" name="avaliacao" value="razoavel" id="razoavel">
+            <label for="razoavel">Razoável</label>
+            <input type="radio" name="avaliacao" value="bom" id="bom">
+            <label for="bom">Bom</label>
+            <input type="radio" name="avaliacao" value="otimo" id="otimo">
+            <label for="otimo">Ótimo</label><br><br>
+           <input type="submit" value="Enviar" id="enviar"> <a href="../Garrafas.htm">Voltar</a>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
